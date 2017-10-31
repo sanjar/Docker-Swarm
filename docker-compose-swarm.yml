@@ -9,7 +9,7 @@ services:
     networks:
       - spring_demo_net
   web:
-    image: getmub/todo:v1
+    image: sanjardocker/todo:1.0.1
     depends_on:
       - db
     ports:
